@@ -1,0 +1,240 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>地接社注册页面</title>
+<link rel="stylesheet" type="text/css" href="css/common.css"/>
+<link rel="stylesheet" type="text/css" href="css/register_2.css"/>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+</head>
+<body>
+<!--通用顶部-->
+<div class="com_top_bg">
+<div class="com_top wrapper">
+<div class="com_top_L">HI,请<a href="#">登录/注册</a></div>
+<div class="com_top_R">
+<a href="#">我的订单</a><span>|</span>
+<a href="#">购物车</a><span>|</span>
+<a href="#">帮助中心</a><span>|</span>
+<a href="#">加入收藏</a><span>|</span>
+<a href="#">English</a>
+</div>
+</div>
+</div>
+<!--通用头部-->
+<div class="com_head_bg">
+<div class="com_head wrapper">
+<div class="com_head_L"><a href="#"><img src="images/index_logo.png"/></a></div>
+<div class="com_head_R">
+<ul>
+<li><a href="#">首页</a></li>
+<li><a href="#">地接线路</a></li>
+<li><a href="#">地接服务</a></li>
+<li><a href="#">地接订制</a></li>
+<li><a href="#">地接顾问</a></li>
+<li><a href="#">地接公司</a></li>
+<li><a href="#">问答</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="wrap_bgfa">
+<!--当前位置-->
+<div class="current wrapper"><a href="#">首页</a> &gt; <a>注册</a></div>
+<!--页面主体-->
+<div class="wrapper wrap_bgfff">
+<div class="page_title">请提供一下合作信息</div>
+<!--联系人信息-->
+<div class="info_title"><span>联系人信息</span></div>
+<div class="tabdiv">
+<table class="info_contact">
+<tr class="tr1">
+<td class="td1"><span class="red">*</span> 您的姓名 :</td>
+<td class="td2"><input type="text"/></td>
+<td></td>
+</tr>
+<tr class="tr2">
+<td class="td1"><span class="red">*</span> 您的手机号 :</td>
+<td class="td2"><input type="text"/></td>
+<td class="td3"><img src="images/ico_7.png" align="absMiddle" />改手机号码将作为登录账号使用，请慎重填写，不可更改</td>
+</tr>
+<tr class="tr3">
+<td class="td1"><span class="red">*</span> 您的邮箱 :</td>
+<td class="td2"><input type="text"/></td>
+<td class="td3"><img src="images/ico_7.png" align="absMiddle" />改邮箱注册将不可更改，请确保该邮箱可用</td>
+</tr>
+<tr class="tr4">
+<td class="td1"><span class="red">*</span> QQ :</td>
+<td class="td2"><input type="text"/></td>
+<td></td>
+</tr>
+</table>
+</div>
+<!--企业信息-->
+<div class="info_title"><span>企业信息</span></div>
+<div class="tabdiv">
+<table class="info_enterprise">
+<tr class="tr1">
+<td class="td1"><span class="red">*</span> 公司名称 :</td>
+<td class="td2"><input type="text" class="text1"/><img src="images/ico_7.png" class="ico1" align="absMiddle" />需和您的营业执照上公司名称一致</td>
+</tr>
+<tr class="tr2">
+<td class="td1"><span class="red">*</span> 公司名称 :</td>
+<td class="td2"><input type="text" class="text1"/><img src="images/ico_7.png" class="ico1" align="absMiddle" />同业合作品牌名称，如“环宇假期”</td>
+</tr>
+<tr class="tr3">
+<td class="td1"><span class="red">*</span> 所在城市 :</td>
+<td class="td2">
+<div class="sel-boxone" id="Tmcselect01">
+<input for="label" type="text" readonly value="请选择省份">
+<ul class="sel-list" style="display:none;">
+<li data="1">请选择省份</li>
+<li data="2">广东省</li>
+<li data="3">广西省</li>
+<li data="4">浙江省</li>
+</ul>
+</div>
+<div class="sel-boxone2" id="Tmcselect02">
+<input for="label" type="text" readonly value="请选择城市或地区">
+<ul class="sel-list2" style="display:none;">
+<li data="5">请选择城市或地区</li>
+<li data="6">北京</li>
+<li data="7">上海</li>
+<li data="8">广州</li>
+<li data="9">深圳</li>
+</ul>
+</div>
+<script src="js/accside.js"></script> 
+<script>
+$('#Tmcselect01').input();
+$('#Tmcselect02').input();
+</script>
+</td>
+</tr>
+<tr class="tr4">
+<td class="td1"><span class="red">*</span> 公司地址 :</td>
+<td class="td2"><input type="text" class="text1"/></td>
+</tr>
+<tr class="tr5">
+<td class="td1"><span class="red">*</span> 供应商类型 :</td>
+<td class="option"><input type="radio" name="radio1"/><span>专线</span><input type="radio" name="radio1"/><span>综合</span><input type="radio" name="radio1"/><span>地接</span><input type="radio" name="radio1"/><span>出境</span><input type="radio" name="radio1"/><span>票务</span><input type="radio" name="radio1"/><span>酒店</span></td>
+</tr>
+<tr class="tr6">
+<td class="td1"><span class="red">*</span> 获许经营范围 :</td>
+<td class="td2 option"><input type="radio" name="radio2"/><span>国内社</span><input type="radio" name="radio2"/><span>出境社</span><input type="radio" name="radio2"/><span>国际社</span><input type="radio" name="radio2"/><span>其他</span></td>
+</tr>
+<tr class="tr7">
+<td class="td1"><span class="red">*</span> 业务类型 :</td>
+<td class="option"><input type="radio" name="radio3"/><span>地接</span><input type="radio" name="radio3"/><span>组团</span><input type="radio" name="radio3"/><span>综合</span></td>
+</tr>
+<tr class="tr8">
+<td class="td1"><span class="red">*</span> 固定电话 :</td>
+<td class="td2"><input type="text" class="text2" placeholder="请输入您的固定电话"/></td>
+</tr>
+<tr class="tr9">
+<td class="td1"><span class="red">*</span> 传真 :</td>
+<td class="td2"><input type="text" class="text2"/></td>
+</tr>
+<tr class="tr10">
+<td class="td1">业务主体 :</td>
+<td class="td2"><input type="text" class="text2"/><img src="images/ico_7.png" class="ico1" align="absMiddle" />合作公司/部门名称</td>
+</tr>
+<tr class="tr11">
+<td class="td1">经营模式 :</td>
+<td class="option"><input type="radio" name="radio4"/><span>直属</span><input type="radio" name="radio4"/><span>挂靠</span></td>
+</tr>
+</table>
+</div>
+<!--合作信息-->
+<div class="info_title"><span>合作信息</span></div>
+<div class="tabdiv">
+<table class="info_cooperation">
+<tr class="tr1">
+<td class="td1">合作网络渠道 :</td>
+<td class="td2"><input type="text"/></td>
+</tr>
+<tr class="tr2">
+<td class="td1">对应合作页面 :</td>
+<td class="td2"><input type="text"/><img src="images/ico_7.png" class="ico1" align="absMiddle" />合作页面链接</td>
+</tr>
+<tr class="tr3">
+<td class="td1" valign="top">优势说明 :</td>
+<td class="td2"><textarea placeholder="请简要说明贵公司操作的主要产品和优势产品，150字内"></textarea></td>
+</tr>
+<tr class="tr4">
+<td></td>
+<td class="td2"><button>提交申请</button></td>
+</tr>
+</table>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<!--优势-->
+<div class="wrap_bgfff">
+<div class="advantage wrapper">
+<ul>
+<li class="li1"><img src="images/ico_2.png"/><p><b>精选地接</b></p><p>同类产品，保证低价</p></li>
+<li class="li2"><img src="images/ico_3.png"/><p><b>专业顾问</b></p><p>因特殊情况影响出行，保证退订</p></li>
+<li class="li3"><img src="images/ico_4.png"/><p><b>价格透明</b></p><p>旅途中遇意外情况，保证援助</p></li>
+<li class="li4"><img src="images/ico_5.png"/><p><b>贴心服务</b></p><p>快速响应，全年无休</p></li>
+<div class="clear"></div>
+</ul>
+<div class="clear"></div>
+</div>
+<div class="clear"></div>
+</div>
+<!--通用底部-->
+<div class="com_foot_bg">
+<div class="com_foot wrapper">
+<ul>
+<li>正品保障</li>
+<li><a href="#">品牌授权正品</a></li>
+<li><a href="#">品牌客服</a></li>
+<li><a href="#">预约到店体验</a></li>
+<li><a href="#">7天无理由退换</a></li>
+</ul>
+<ul>
+<li>使用帮助</li>
+<li><a href="#">常见问题</a></li>
+<li><a href="#">会员制度</a></li>
+<li><a href="#">集团采购</a></li>
+<li><a href="#">礼品卡</a></li>
+</ul>
+<ul>
+<li>支付方式</li>
+<li><a href="#">到店付款</a></li>
+<li><a href="#">货到付款</a></li>
+<li><a href="#">在线支付</a></li>
+<li><a href="#">余额支付</a></li>
+<li><a href="#">分期付款</a></li>
+</ul>
+<ul>
+<li>配送方式</li>
+<li><a href="#">配送说明</a></li>
+<li><a href="#">到店自提</a></li>
+<li><a href="#">运费说明</a></li>
+<li><a href="#">验货签收</a></li>
+</ul>
+<ul class="width145">
+<li>售后服务</li>
+<li><a href="#">品牌售后</a></li>
+<li><a href="#">售后咨询</a></li>
+<li><a href="#">退换政策</a></li>
+<li><a href="#">发票保障</a></li>
+</ul>
+<div class="public mgR25"><p>地接公众号</p><img src="images/pic_33.jpg"/></div>
+<div class="public"><p>地接微博</p><img src="images/pic_33.jpg"/></div>
+<div class="clear"></div>
+</div>
+</div>
+<!--右侧悬浮层-->
+<div class="fix_box">
+<div class="boxMain">
+<a href="#" class="btn1"><span>意见反馈</span></a>
+<a href="javasrcipt:void(0)" class="btn2"><img src="images/pic_86.jpg"></a>
+<a href="#top" class="btn3"><span>返回顶部</span></a>
+</div>
+</div>
+</body>
+</html>

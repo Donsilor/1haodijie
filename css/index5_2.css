@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrap_bgfff{background-color:#fff;}
+.wrap_bgfa{background-color:#fafafa; padding-bottom:6px;}
+
+/*当前位置*/
+.current{height:45px; line-height:45px; font-size:14px; background:url(../images/ico_6.png) no-repeat left center; padding-left:30px;}
+.current a{color:#656565;}
+.current a:hover{color:#333;}
+
+/*页面主体*/
+.main table{padding:24px 0 50px 0;}
+.main table tr{height:32px; line-height:32px;}
+.main table .td1{width:134px; line-height:32px; font-size:14px; color:#656565; padding-right:15px; text-align:right;}
+.main table .tr1 .td2 a{display:block; float:left; width:71px; height:32px; line-height:30px; text-align:center; font-size:14px; color:#999; border:1px solid #ddd; background-color:#f5f5f5; margin-right:10px;}
+.main table .tr1 .td2 .last{width:101px; background-color:#89C123; border-color:#89C123; color:#fff; text-align:left;}
+.main table .tr1 .td2 .last b{font-size:22px; float:left; margin-left:15px;}
+.main table .tr2 .td2 textarea{width:950px; height:212px; font-size:14px; font-family:微软雅黑; padding:10px 15px; border:1px solid #d6d6d6;}
+.main table .tr2 .td2 p{line-height:40px; font-size:12px; color:#999; padding-left:25px; background:url(../images/ico_7.png) no-repeat left center;}
+.main table .tr3 .td2 select{width:230px; height:32px; border:1px solid #d6d6d6; padding-left:10px; font-size:14px;}
+.main table .tr4 .td2 input{width:148px; height:32px; float:left; border:1px solid #d6d6d6; padding-left:10px;}
+.main table .tr4 .td2 .yzm{display:block; float:left; width:73px; height:32px; margin:0 10px;}
+.main table .tr4 .td2 .kbq{font-size:12px; color:#005AFF;}
+.main table .tr5 .td2 p{font-size:12px; color:#999; padding-left:25px; background:url(../images/ico_7.png) no-repeat left center;}
+.main table .tr6 .td2 button{width:165px; height:45px; line-height:45px; text-align:center; border:none; font-size:16px; color:#fff; border-radius:5px; background-color:#FFBF01;}
+.main table .tr7 .td2{font-size:12px; color:#999;}
+.main table .tr7 .td2 input{width:18px; height:18px; float:left; margin:7px 0; margin-right:10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

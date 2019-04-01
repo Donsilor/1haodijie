@@ -1,0 +1,456 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>地接页面</title>
+<link rel="stylesheet" type="text/css" href="css/common.css"/>
+<link rel="stylesheet" type="text/css" href="css/index3_3.css"/>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/option.js"></script>
+</head>
+<body>
+<!--通用顶部-->
+<div class="com_top_bg">
+<div class="com_top wrapper">
+<div class="com_top_L">HI,请<a href="#">登录/注册</a></div>
+<div class="com_top_R">
+<a href="#">我的订单</a><span>|</span>
+<a href="#">购物车</a><span>|</span>
+<a href="#">帮助中心</a><span>|</span>
+<a href="#">加入收藏</a><span>|</span>
+<a href="#">English</a>
+</div>
+</div>
+</div>
+<!--通用头部-->
+<div class="com_head_bg">
+<div class="com_head wrapper">
+<div class="com_head_L"><a href="#"><img src="images/index_logo.png"/></a></div>
+<div class="com_head_R">
+<ul>
+<li><a href="#">首页</a></li>
+<li><a href="#">地接线路</a></li>
+<li><a href="#">地接服务</a></li>
+<li><a href="#">地接订制</a></li>
+<li><a href="#">地接顾问</a></li>
+<li><a href="#">地接公司</a></li>
+<li><a href="#">问答</a></li>
+</ul>
+</div>
+</div>
+</div>
+<!--二级头部-->
+<div class="two_head_bg">
+<div class="two_head wrapper">
+<div class="two_hL"><a href="#"><img src="images/pic_78.png" align="absMiddle" /></a></div>
+<div class="two_hR">
+<form>
+<div class="div1">
+<div class="d1">北京</div>
+<div class="d2">
+<select class="sel1">
+<option>出发</option>
+<option>目的地</option>
+</select>
+</div>
+<input type="text" placeholder="请输入目的地、主题或关键词"/>
+</div>
+<button class="btn1">搜地接1号</button>
+<button class="btn2">搜本店</button>
+</form>
+<ul>
+<li><a href="#">澳大利亚</a></li>
+<li><a href="#">美国</a></li>
+<li><a href="#">日本</a></li>
+<li><a href="#">韩国</a></li>
+<li><a href="#">法国</a></li>
+<li><a href="#">泰国</a></li>
+<li><a href="#">英国</a></li>
+</ul>
+</div>
+</div>
+</div>
+<!--二级导航-->
+<div class="two_nav_bg">
+<div class="two_nav wrapper">
+<ul>
+<li><a href="#">首页</a></li>
+<li><a href="#">全部</a></li>
+<li><a href="#">跟团游</a></li>
+<li><a href="#">周边/当地游</a></li>
+<li><a href="#">国内游</a></li>
+<li><a href="#">出境游</a></li>
+<li><a href="#">港澳台</a></li>
+</ul>
+</div>
+</div>
+<!--背景图-->
+<div class="backgroundImage"></div>
+<!--页面主体-->
+<div class="page_main wrap_bgfa">
+<div class="wrapper">
+<!--地接社信息-->
+<div class="djsInfo_L">
+<div class="line1">
+<p class="p1">国旅乐游网</p>
+<p class="p2"><i></i><i></i><i></i><i></i><i></i></p>
+<ul>
+<li><img src="images/ico_52.png" align="absMiddle" /></li>
+<li><img src="images/ico_53.png" align="absMiddle" /></li>
+<li><img src="images/ico_54.png" align="absMiddle" /></li>
+<li><img src="images/ico_55.png" align="absMiddle" /></li>
+<li><img src="images/ico_56.png" align="absMiddle" /></li>
+<li><img src="images/ico_57.png" align="absMiddle" /></li>
+<li><img src="images/ico_58.png" align="absMiddle" /></li>
+</ul>
+</div>
+<div class="line2 wrap_bgfff">
+<img src="images/pic_79.jpg" class="pic"/>
+<ul>
+<li>经营历史 : <span><b>3</b>年</span></li>
+<li>地接会员 : <span><b>1</b>年</span></li>
+<li>产品数量 : <span><b>34</b>个</span></li>
+<li>诚信服务 : <span><b>38</b>单</span></li>
+<div class="clear"></div>
+</ul>
+<a href="#" class="a1">咨询提问</a>
+<a href="#" class="a2">收藏本公司</a>
+</div>
+<div class="line3 wrap_bgfff">
+<p><span>公司类型 : </span>地接社</p>
+<p><span>业务区域 : </span>欧洲-英国</p>
+<p><span>网址 : </span>www.tdfhguid.com</p>
+<p><span>电话 : </span>010-8927345</p>
+<p><span>邮箱 : </span>209489283@qq.com</p>
+<p><span>地址 : </span>北京市朝阳区北京路122号北京大厦1220</p>
+</div>
+<div class="line4 wrap_bgfff">
+<div class="headT">地接顾问</div>
+<div class="kefu kf1"><img src="images/pic_80.png"/><br/><a href="#">桃子</a></div>
+<div class="kefu"><img src="images/pic_80.png"/><br/><a href="#">香蕉</a></div>
+<a href="#" class="contact">找我定制</a>
+</div>
+<div class="line5 wrap_bgfff">
+<div class="headT">商家产品分类</div>
+<a href="javascript:void(0)" class="line5_1" id="lion1" style="cursor:pointer;display:none;" onClick="TreeView_ToggleNode('lion1','lioff1','linavlist1')">按目的地分类<img src="images/ico_62.png" align="absMiddle" /></a>
+<a href="javascript:void(0)" class="line5_1" id="lioff1" style="cursor:pointer;" onClick="TreeView('lion1','lioff1','linavlist1')">按目的地分类<img src="images/ico_61.png" align="absMiddle" /></a>
+<div id="linavlist1">
+<ul>
+<li>出境游<a href="#">更多&gt;&gt;</a></li>
+<li><a href="#">美国</a></li>
+<li><a href="#">斐济</a></li>
+<li><a href="#">港丽岛</a></li>
+<li><a href="#">第六感拉姆岛</a></li>
+<li><a href="#">阿联酋</a></li>
+<li><a href="#">瑞提拉岛</a></li>
+<li><a href="#">卡尼岛</a></li>
+<li><a href="#">安嘎嘎岛</a></li>
+<div class="clear"></div>
+</ul>
+<ul>
+<li>国内游<a href="#">更多&gt;&gt;</a></li>
+<li><a href="#">美国</a></li>
+<li><a href="#">斐济</a></li>
+<li><a href="#">港丽岛</a></li>
+<div class="clear"></div>
+</ul>
+</div>
+<a href="javascript:void(0)" class="line5_2" id="lion2" style="cursor:pointer;display:none;" onClick="TreeView_ToggleNode('lion2','lioff2','linavlist2')">出游方式<img src="images/ico_62.png" align="absMiddle" /></a>
+<a href="javascript:void(0)" class="line5_2" id="lioff2" style="cursor:pointer;" onClick="TreeView('lion2','lioff2','linavlist2')">出游方式<img src="images/ico_61.png" align="absMiddle" /></a>
+<div id="linavlist2">
+<ul>
+<li><a href="#">自由行</a></li>
+<li><a href="#">跟团游</a></li>
+<div class="clear"></div>
+</ul>
+</div>
+<script type="text/javascript">
+function TreeView_ToggleNode(id1,id2,id3){
+document.getElementById(id3).style.display="block";
+document.getElementById(id1).style.display="none";
+document.getElementById(id2).style.display="block";
+}
+function TreeView(id1,id2,id3){
+document.getElementById(id3).style.display="none";
+document.getElementById(id1).style.display="block";
+document.getElementById(id2).style.display="none";
+}
+</script>
+<div class="clear"></div>
+</div>
+</div>
+<!--筛选选项及结果-->
+<div class="screening_R">
+<!--筛选选项-->
+<div class="screening">
+<div class="screening_main">
+<div class="line">
+<div class="title">产品类型 :</div>
+<p>
+<a href="javascript:void(0)">不限</a>
+<a href="javascript:void(0)">自由行</a>
+<a href="javascript:void(0)">跟团游</a>
+</p>
+</div>
+
+<div class="line">
+<div class="title">出行月份 :</div>
+<p id="list3" style="height:40px;">
+<a href="javascript:void(0)">不限</a>
+<a href="javascript:void(0)">6月</a>
+<a href="javascript:void(0)">7月</a>
+<a href="javascript:void(0)">8月</a>
+<a href="javascript:void(0)">9月</a>
+<a href="javascript:void(0)">10月</a>
+<a href="javascript:void(0)">11月</a>
+<a href="javascript:void(0)">12月</a>
+</p>
+<div class="more">
+<a href="javascript:void(0)" id="lion3" style="cursor:pointer;" onClick="shrink('lion3','lioff3','list3')">展开 <img src="images/ico_8.png" align="absMiddle" /></a>
+<a href="javascript:void(0)" id="lioff3" style="cursor:pointer;display:none;" onClick="unfold('lion3','lioff3','list3')">收缩 <img src="images/ico_9.png" align="absMiddle" /></a>
+</div>
+</div>
+
+<div class="line">
+<div class="title">行程天数 :</div>
+<p id="list4" style="height:40px;">
+<a href="javascript:void(0)">不限</a>
+<a href="javascript:void(0)">1天</a>
+<a href="javascript:void(0)">2天</a>
+<a href="javascript:void(0)">3天</a>
+<a href="javascript:void(0)">4天</a>
+<a href="javascript:void(0)">5天</a>
+<a href="javascript:void(0)">6天</a>
+<a href="javascript:void(0)">7天</a>
+<a href="javascript:void(0)">8天</a>
+<a href="javascript:void(0)">9天</a>
+<a href="javascript:void(0)">10天以上</a>
+<a href="javascript:void(0)">10天以上</a>
+<a href="javascript:void(0)">10天以上</a>
+</p>
+<div class="more">
+<a href="javascript:void(0)" id="lion4" style="cursor:pointer;" onClick="shrink('lion4','lioff4','list4')">展开 <img src="images/ico_8.png" align="absMiddle" /></a>
+<a href="javascript:void(0)" id="lioff4" style="cursor:pointer;display:none;" onClick="unfold('lion4','lioff4','list4')">收缩 <img src="images/ico_9.png" align="absMiddle" /></a>
+</div>
+</div>
+
+<div class="line">
+<div class="title">出发地 :</div>
+<p id="list5" style="height:40px;">
+<a href="javascript:void(0)">不限</a>
+<a href="javascript:void(0)">上海</a>
+<a href="javascript:void(0)">北京</a>
+<a href="javascript:void(0)">南京</a>
+<a href="javascript:void(0)">天津</a>
+<a href="javascript:void(0)">广州</a>
+<a href="javascript:void(0)">成都</a>
+<a href="javascript:void(0)">昆明</a>
+<a href="javascript:void(0)">杭州</a>
+<a href="javascript:void(0)">武汉</a>
+<a href="javascript:void(0)">澳门</a>
+<a href="javascript:void(0)">西安</a>
+<a href="javascript:void(0)">杭州</a>
+</p>
+<div class="more">
+<a href="javascript:void(0)" id="lion5" style="cursor:pointer;" onClick="shrink('lion5','lioff5','list5')">展开 <img src="images/ico_8.png" align="absMiddle" /></a>
+<a href="javascript:void(0)" id="lioff5" style="cursor:pointer;display:none;" onClick="unfold('lion5','lioff5','list5')">收缩 <img src="images/ico_9.png" align="absMiddle" /></a>
+</div>
+</div>
+
+<div class="line">
+<div class="title">目的地 :</div>
+<p id="list6" style="height:40px;">
+<a href="javascript:void(0)">不限</a>
+<a href="javascript:void(0)">美国</a>
+<a href="javascript:void(0)">斐济</a>
+<a href="javascript:void(0)">港丽岛</a>
+<a href="javascript:void(0)">第六感拉姆岛</a>
+<a href="javascript:void(0)">阿联酋</a>
+<a href="javascript:void(0)">瑞提拉岛</a>
+<a href="javascript:void(0)">卡尼岛</a>
+<a href="javascript:void(0)">安嘎嘎岛</a>
+<a href="javascript:void(0)">清迈</a>
+</p>
+<div class="more">
+<a href="javascript:void(0)" id="lion6" style="cursor:pointer;" onClick="shrink('lion6','lioff6','list6')">展开 <img src="images/ico_8.png" align="absMiddle" /></a>
+<a href="javascript:void(0)" id="lioff6" style="cursor:pointer;display:none;" onClick="unfold('lion6','lioff6','list6')">收缩 <img src="images/ico_9.png" align="absMiddle" /></a>
+<script type="text/javascript">
+function shrink(id1,id2,id3){
+document.getElementById(id3).style.height="auto";
+document.getElementById(id1).style.display="none";
+document.getElementById(id2).style.display="block";
+}
+function unfold(id1,id2,id3){
+document.getElementById(id3).style.height="40px";
+document.getElementById(id1).style.display="block";
+document.getElementById(id2).style.display="none";
+}
+</script>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="clear"></div>
+</div>
+<!--筛选结果-->
+<div class="results">
+<div class="headT">
+<ul>
+<li><a href="#">综合</a></li>
+<li><a href="#" class="moren">天数</a></li>
+<li><a href="#" class="moren">价格</a></li>
+</ul>
+</div>
+<div class="main_title"><span class="title">热门推荐</span><span class="subtitle">THE DESTINATION</span><a href="#" class="more">MORE<b>+</b></a></div>
+<dl>
+<dd>
+<a href="#" class="pic"><img src="images/pic_81.jpg"/></a>
+<p class="title"><a href="#">澳门船游维多五星悦泰酒店同级...</a></p>
+<p><span class="price">¥<b>13,999</b><small>起</small></span><span class="xinji"><i></i><i></i><i></i><i></i><i></i></span></p>
+</dd>
+<dd>
+<a href="#" class="pic"><img src="images/pic_81.jpg"/></a>
+<p class="title"><a href="#">澳门船游维多五星悦泰酒店同级...</a></p>
+<p><span class="price">¥<b>13,999</b><small>起</small></span><span class="xinji"><i></i><i></i><i></i><i></i><i></i></span></p>
+</dd>
+<dd class="mgNo">
+<a href="#" class="pic"><img src="images/pic_81.jpg"/></a>
+<p class="title"><a href="#">澳门船游维多五星悦泰酒店同级...</a></p>
+<p><span class="price">¥<b>13,999</b><small>起</small></span><span class="xinji"><i></i><i></i><i></i><i></i><i></i></span></p>
+</dd>
+<dd>
+<a href="#" class="pic"><img src="images/pic_81.jpg"/></a>
+<p class="title"><a href="#">澳门船游维多五星悦泰酒店同级...</a></p>
+<p><span class="price">¥<b>13,999</b><small>起</small></span><span class="xinji"><i></i><i></i><i></i><i></i><i></i></span></p>
+</dd>
+<dd>
+<a href="#" class="pic"><img src="images/pic_81.jpg"/></a>
+<p class="title"><a href="#">澳门船游维多五星悦泰酒店同级...</a></p>
+<p><span class="price">¥<b>13,999</b><small>起</small></span><span class="xinji"><i></i><i></i><i></i><i></i><i></i></span></p>
+</dd>
+<dd class="mgNo">
+<a href="#" class="pic"><img src="images/pic_81.jpg"/></a>
+<p class="title"><a href="#">澳门船游维多五星悦泰酒店同级...</a></p>
+<p><span class="price">¥<b>13,999</b><small>起</small></span><span class="xinji"><i></i><i></i><i></i><i></i><i></i></span></p>
+</dd>
+<dd>
+<a href="#" class="pic"><img src="images/pic_81.jpg"/></a>
+<p class="title"><a href="#">澳门船游维多五星悦泰酒店同级...</a></p>
+<p><span class="price">¥<b>13,999</b><small>起</small></span><span class="xinji"><i></i><i></i><i></i><i></i><i></i></span></p>
+</dd>
+<dd>
+<a href="#" class="pic"><img src="images/pic_81.jpg"/></a>
+<p class="title"><a href="#">澳门船游维多五星悦泰酒店同级...</a></p>
+<p><span class="price">¥<b>13,999</b><small>起</small></span><span class="xinji"><i></i><i></i><i></i><i></i><i></i></span></p>
+</dd>
+<dd class="mgNo">
+<a href="#" class="pic"><img src="images/pic_81.jpg"/></a>
+<p class="title"><a href="#">澳门船游维多五星悦泰酒店同级...</a></p>
+<p><span class="price">¥<b>13,999</b><small>起</small></span><span class="xinji"><i></i><i></i><i></i><i></i><i></i></span></p>
+</dd>
+<dd>
+<a href="#" class="pic"><img src="images/pic_81.jpg"/></a>
+<p class="title"><a href="#">澳门船游维多五星悦泰酒店同级...</a></p>
+<p><span class="price">¥<b>13,999</b><small>起</small></span><span class="xinji"><i></i><i></i><i></i><i></i><i></i></span></p>
+</dd>
+<dd>
+<a href="#" class="pic"><img src="images/pic_81.jpg"/></a>
+<p class="title"><a href="#">澳门船游维多五星悦泰酒店同级...</a></p>
+<p><span class="price">¥<b>13,999</b><small>起</small></span><span class="xinji"><i></i><i></i><i></i><i></i><i></i></span></p>
+</dd>
+<dd class="mgNo">
+<a href="#" class="pic"><img src="images/pic_81.jpg"/></a>
+<p class="title"><a href="#">澳门船游维多五星悦泰酒店同级...</a></p>
+<p><span class="price">¥<b>13,999</b><small>起</small></span><span class="xinji"><i></i><i></i><i></i><i></i><i></i></span></p>
+</dd>
+<div class="clear"></div>
+</dl>
+<div class="paging">
+<ul>
+<li><a href="#" class="width73">上一页</a></li>
+<li><a href="#">1</a></li>
+<li><a href="#">2</a></li>
+<li><a href="#">3</a></li>
+<li><a href="#">4</a></li>
+<li><a href="#">5</a></li>
+<li>···</li>
+<li><a href="#">15</a></li>
+<li><a href="#" class="width73">下一页</a></li>
+<div class="clear"></div>
+</ul>
+<div class="clear"></div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="clear"></div>
+</div>
+<!--优势-->
+<div class="wrap_bgfff">
+<div class="advantage wrapper">
+<ul>
+<li class="li1"><img src="images/ico_2.png"/><p><b>精选地接</b></p><p>同类产品，保证低价</p></li>
+<li class="li2"><img src="images/ico_3.png"/><p><b>专业顾问</b></p><p>因特殊情况影响出行，保证退订</p></li>
+<li class="li3"><img src="images/ico_4.png"/><p><b>价格透明</b></p><p>旅途中遇意外情况，保证援助</p></li>
+<li class="li4"><img src="images/ico_5.png"/><p><b>贴心服务</b></p><p>快速响应，全年无休</p></li>
+<div class="clear"></div>
+</ul>
+<div class="clear"></div>
+</div>
+<div class="clear"></div>
+</div>
+<!--通用底部-->
+<div class="com_foot_bg">
+<div class="com_foot wrapper">
+<ul>
+<li>正品保障</li>
+<li><a href="#">品牌授权正品</a></li>
+<li><a href="#">品牌客服</a></li>
+<li><a href="#">预约到店体验</a></li>
+<li><a href="#">7天无理由退换</a></li>
+</ul>
+<ul>
+<li>使用帮助</li>
+<li><a href="#">常见问题</a></li>
+<li><a href="#">会员制度</a></li>
+<li><a href="#">集团采购</a></li>
+<li><a href="#">礼品卡</a></li>
+</ul>
+<ul>
+<li>支付方式</li>
+<li><a href="#">到店付款</a></li>
+<li><a href="#">货到付款</a></li>
+<li><a href="#">在线支付</a></li>
+<li><a href="#">余额支付</a></li>
+<li><a href="#">分期付款</a></li>
+</ul>
+<ul>
+<li>配送方式</li>
+<li><a href="#">配送说明</a></li>
+<li><a href="#">到店自提</a></li>
+<li><a href="#">运费说明</a></li>
+<li><a href="#">验货签收</a></li>
+</ul>
+<ul class="width145">
+<li>售后服务</li>
+<li><a href="#">品牌售后</a></li>
+<li><a href="#">售后咨询</a></li>
+<li><a href="#">退换政策</a></li>
+<li><a href="#">发票保障</a></li>
+</ul>
+<div class="public mgR25"><p>地接公众号</p><img src="images/pic_33.jpg"/></div>
+<div class="public"><p>地接微博</p><img src="images/pic_33.jpg"/></div>
+<div class="clear"></div>
+</div>
+</div>
+<!--右侧悬浮层-->
+<div class="fix_box">
+<div class="boxMain">
+<a href="#" class="btn1"><span>意见反馈</span></a>
+<a href="javasrcipt:void(0)" class="btn2"><img src="images/pic_86.jpg"></a>
+<a href="#top" class="btn3"><span>返回顶部</span></a>
+</div>
+</div>
+</body>
+</html>

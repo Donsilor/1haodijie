@@ -1,0 +1,534 @@
+<!doctype html>
+<html xmlns:ng="http://angularjs.org" ng-app="luxtripper" ng-controller="mainController" class="ng-scope">
+<head>
+<meta charset="utf-8">
+<title>1号地接首页</title>
+<link rel="stylesheet" type="text/css" href="css/common.css"/>
+<link rel="stylesheet" type="text/css" href="css/index.css"/>
+</head>
+<body>
+<!--通用顶部-->
+<div class="com_top_bg" id="top">
+<div class="com_top wrapper">
+<div class="com_top_L">HI,请<a href="#">登录/注册</a></div>
+<div class="com_top_R">
+<a href="#">我的订单</a><span>|</span>
+<a href="#">购物车</a><span>|</span>
+<a href="#">帮助中心</a><span>|</span>
+<a href="#">加入收藏</a><span>|</span>
+<a href="#">English</a>
+</div>
+</div>
+</div>
+<!--通用头部-->
+<div class="com_head wrapper">
+<div class="com_head_L"><a href="#"><img src="images/index_logo.png"/></a></div>
+<div class="com_head_R">
+<ul>
+<li><a href="#">首页</a></li>
+<li><a href="#">地接线路</a></li>
+<li><a href="#">地接服务</a></li>
+<li><a href="#">地接订制</a></li>
+<li><a href="#">地接顾问</a></li>
+<li><a href="#">地接公司</a></li>
+<li><a href="#">问答</a></li>
+</ul>
+</div>
+</div>
+<!--地接订制-->
+<div class="content">
+<div class="content_m">
+<section class="wtgw_search">
+<!--初始选项开始-->
+<div class="selemain" id="selemain">
+<div class="question">
+<div class="inner" onClick="openes('111')">
+<div class="title">和谁去旅行</div>
+<div class="icon icon1"></div>	
+<div class="select">情侣</div>
+<div class="icondown"></div>
+</div>
+</div>
+<div class="question">
+<div class="inner" onClick="openes('222')">
+<div class="title">预计出发日期</div>
+<div class="icon icon2"></div>
+<div class="select">7.21</div>
+<div class="icondown"></div>
+</div>
+</div>
+<div class="question">
+<div class="inner" onClick="openes('333')">
+<div class="title">目的地</div>
+<div class="icon icon3"></div>
+<div class="select">法国</div>
+<div class="icondown"></div>
+</div>
+</div>
+<div class="question">
+<div class="inner" onClick="openes('444')">
+<div class="title">旅行体验</div>
+<div class="icon icon4"></div>
+<div class="select">浪漫蜜月</div>
+<div class="icondown"></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="selelist">
+<!--第一个选项内容-->
+<div class="selections" id="tr111" style=" display: none;">
+<div class="selectm">
+<div class="selectm1">
+<a href="javascript:void(0)" onClick="closes('111')"><img src="images/pic1.jpg" /><span>情侣</span></a>
+<a href="javascript:void(0)" onClick="closes('111')"><img src="images/pic2.jpg" /><span>家人</span></a>
+<a href="javascript:void(0)" onClick="closes('111')"><img src="images/pic3.jpg" /><span>朋友</span></a>
+<a href="javascript:void(0)" onClick="closes('111')"><img src="images/pic4.jpg" /><span>商务</span></a>
+</div>
+</div>
+</div>
+<!--第二个选项内容-->
+<div class="selections" id="tr222" style=" display: none;">
+<div class="selectm">
+<div class="selectm2">
+<a href="javascript:void(0)" onClick="closes('222')">1月</a>
+<a href="javascript:void(0)" onClick="closes('222')">2月</a>
+<a href="javascript:void(0)" onClick="closes('222')">3月</a>
+<a href="javascript:void(0)" onClick="closes('222')">4月</a>
+<a href="javascript:void(0)" onClick="closes('222')">5月</a>
+<a href="javascript:void(0)" onClick="closes('222')">6月</a>
+<a href="javascript:void(0)" onClick="closes('222')">7月</a>
+<a href="javascript:void(0)" onClick="closes('222')">8月</a>
+<a href="javascript:void(0)" onClick="closes('222')">9月</a>
+<a href="javascript:void(0)" onClick="closes('222')">10月</a>
+<a href="javascript:void(0)" onClick="closes('222')">11月</a>
+<a href="javascript:void(0)" onClick="closes('222')">12月</a>
+<div class="clear"></div>
+</div>
+<div class="selectm3">
+<a href="javascript:void(0)" onClick="closes('222')">1</a><a href="javascript:void(0)" onClick="closes('222')">2</a><a href="javascript:void(0)" onClick="closes('222')">3</a>
+<a href="javascript:void(0)" onClick="closes('222')">4</a><a href="javascript:void(0)" onClick="closes('222')">5</a><a href="javascript:void(0)" onClick="closes('222')">6</a>
+<a href="javascript:void(0)" onClick="closes('222')">7</a><a href="javascript:void(0)" onClick="closes('222')">8</a><a href="javascript:void(0)" onClick="closes('222')">9</a>
+<a href="javascript:void(0)" onClick="closes('222')">10</a><a href="javascript:void(0)" onClick="closes('222')">11</a><a href="javascript:void(0)" onClick="closes('222')">12</a>
+<a href="javascript:void(0)" onClick="closes('222')">13</a><a href="javascript:void(0)" onClick="closes('222')">14</a><a href="javascript:void(0)" onClick="closes('222')">15</a>
+<a href="javascript:void(0)" onClick="closes('222')">16</a><a href="javascript:void(0)" onClick="closes('222')">17</a><a href="javascript:void(0)" onClick="closes('222')">18</a>
+<a href="javascript:void(0)" onClick="closes('222')">19</a><a href="javascript:void(0)" onClick="closes('222')">20</a><a href="javascript:void(0)" onClick="closes('222')">21</a>
+<a href="javascript:void(0)" onClick="closes('222')">22</a><a href="javascript:void(0)" onClick="closes('222')">23</a><a href="javascript:void(0)" onClick="closes('222')">24</a>
+<a href="javascript:void(0)" onClick="closes('222')">25</a><a href="javascript:void(0)" onClick="closes('222')">26</a><a href="javascript:void(0)" onClick="closes('222')">27</a>
+<a href="javascript:void(0)" onClick="closes('222')">28</a><a href="javascript:void(0)" onClick="closes('222')">29</a><a href="javascript:void(0)" onClick="closes('222')">30</a>
+<a href="javascript:void(0)" onClick="closes('222')">31</a>
+<div class="clear"></div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<!--第三个选项内容-->
+<div class="selections select3" id="tr333" style=" display: none;">
+<div class="selectm">
+<div class="selectm4">
+<script type="text/javascript" src="js/jquery-1.8.1.min.js"></script>
+<script type="text/javascript" src="js/banner.js"></script>
+<div class="plalist">
+<p class="acti">热门</p><p>国内</p><p>欧洲</p><p>亚洲</p><p>美洲</p><p>海岛</p><p>大洋洲</p><p>中东非洲</p>
+<div class="clear"></div>
+</div>
+</div>
+<div class="selectm5">
+<div class="plamain">
+<a href="javascript:void(0)" onClick="closes('333')">意大利</a>
+<a href="javascript:void(0)" onClick="closes('333')">德国</a>
+<a href="javascript:void(0)" onClick="closes('333')">法国</a>
+<a href="javascript:void(0)" onClick="closes('333')">西班牙</a>
+<a href="javascript:void(0)" onClick="closes('333')">葡萄牙</a>
+<a href="javascript:void(0)" onClick="closes('333')">希腊</a>
+<a href="javascript:void(0)" onClick="closes('333')">瑞士</a>
+<a href="javascript:void(0)" onClick="closes('333')">奥地利</a>
+<a href="javascript:void(0)" onClick="closes('333')">匈牙利</a>
+<a href="javascript:void(0)" onClick="closes('333')">荷兰</a>
+<a href="javascript:void(0)" onClick="closes('333')">比利时</a>
+<a href="javascript:void(0)" onClick="closes('333')">英国</a>
+<a href="javascript:void(0)" onClick="closes('333')">摩纳哥</a>
+<a href="javascript:void(0)" onClick="closes('333')">卢森堡</a>
+<a href="javascript:void(0)" onClick="closes('333')">破烂</a>
+<a href="javascript:void(0)" onClick="closes('333')">芬兰</a>
+<a href="javascript:void(0)" onClick="closes('333')">挪威</a>
+<a href="javascript:void(0)" onClick="closes('333')">瑞典</a>
+<a href="javascript:void(0)" onClick="closes('333')">丹麦</a>
+<a href="javascript:void(0)" onClick="closes('333')">杰克</a>
+<a href="javascript:void(0)" onClick="closes('333')">俄罗斯</a>
+<a href="javascript:void(0)" onClick="closes('333')">冰岛</a>
+</div>
+<div class="plamain" style=" display:none;">
+<a href="javascript:void(0)" onClick="closes('333')">意大利</a>
+<a href="javascript:void(0)" onClick="closes('333')">意大利</a>
+<a href="javascript:void(0)" onClick="closes('333')">意大利</a>
+<a href="javascript:void(0)" onClick="closes('333')">意大利</a>
+<a href="javascript:void(0)" onClick="closes('333')">意大利</a>
+<a href="javascript:void(0)" onClick="closes('333')">意大利</a>
+<a href="javascript:void(0)" onClick="closes('333')">意大利</a>
+</div>
+<div class="plamain" style=" display:none;">
+<a href="javascript:void(0)" onClick="closes('333')">西班牙</a>
+<a href="javascript:void(0)" onClick="closes('333')">西班牙</a>
+<a href="javascript:void(0)" onClick="closes('333')">西班牙</a>
+<a href="javascript:void(0)" onClick="closes('333')">西班牙</a>
+<a href="javascript:void(0)" onClick="closes('333')">葡萄牙</a>
+<a href="javascript:void(0)" onClick="closes('333')">西班牙</a>
+<a href="javascript:void(0)" onClick="closes('333')">西班牙</a>
+</div>
+<div class="plamain" style=" display:none;">
+<a href="javascript:void(0)" onClick="closes('333')">瑞士</a>
+<a href="javascript:void(0)" onClick="closes('333')">德国</a>
+<a href="javascript:void(0)" onClick="closes('333')">法国</a>
+<a href="javascript:void(0)" onClick="closes('333')">瑞士</a>
+<a href="javascript:void(0)" onClick="closes('333')">瑞士</a>
+<a href="javascript:void(0)" onClick="closes('333')">瑞士</a>
+<a href="javascript:void(0)" onClick="closes('333')">瑞士</a>
+</div>
+<div class="plamain" style=" display:none;">
+<a href="javascript:void(0)" onClick="closes('333')">葡萄牙</a>
+<a href="javascript:void(0)" onClick="closes('333')">葡萄牙</a>
+<a href="javascript:void(0)" onClick="closes('333')">葡萄牙</a>
+<a href="javascript:void(0)" onClick="closes('333')">西班牙</a>
+<a href="javascript:void(0)" onClick="closes('333')">葡萄牙</a>
+<a href="javascript:void(0)" onClick="closes('333')">葡萄牙</a>
+<a href="javascript:void(0)" onClick="closes('333')">葡萄牙</a>
+</div>
+<div class="plamain" style=" display:none;">
+<a href="javascript:void(0)" onClick="closes('333')">希腊</a>
+<a href="javascript:void(0)" onClick="closes('333')">希腊</a>
+<a href="javascript:void(0)" onClick="closes('333')">希腊</a>
+<a href="javascript:void(0)" onClick="closes('333')">希腊</a>
+<a href="javascript:void(0)" onClick="closes('333')">希腊</a>
+<a href="javascript:void(0)" onClick="closes('333')">希腊</a>
+<a href="javascript:void(0)" onClick="closes('333')">希腊</a>
+</div>
+<div class="plamain" style=" display:none;">
+<a href="javascript:void(0)" onClick="closes('333')">意大利</a>
+<a href="javascript:void(0)" onClick="closes('333')">意大利</a>
+<a href="javascript:void(0)" onClick="closes('333')">意大利</a>
+<a href="javascript:void(0)" onClick="closes('333')">西班牙</a>
+<a href="javascript:void(0)" onClick="closes('333')">葡萄牙</a>
+<a href="javascript:void(0)" onClick="closes('333')">意大利</a>
+<a href="javascript:void(0)" onClick="closes('333')">意大利</a>
+</div>
+<div class="plamain" style=" display:none;">
+<a href="javascript:void(0)" onClick="closes('333')">法国</a>
+<a href="javascript:void(0)" onClick="closes('333')">德国</a>
+<a href="javascript:void(0)" onClick="closes('333')">法国</a>
+<a href="javascript:void(0)" onClick="closes('333')">法国</a>
+<a href="javascript:void(0)" onClick="closes('333')">法国</a>
+<a href="javascript:void(0)" onClick="closes('333')">希腊</a>
+<a href="javascript:void(0)" onClick="closes('333')">瑞士</a>
+</div>
+</div>
+</div>
+</div>
+<!--第四个选项内容-->
+<div class="selections select4" id="tr444" style=" display: none;">
+<div class="selectm">
+<div class="selectm6">
+<a href="javascript:void(0)" onClick="closes('444')"><img src="images/zt1.jpg" /><span>温泉度假</span></a>
+<a href="javascript:void(0)" onClick="closes('444')"><img src="images/zt2.jpg" /><span>家庭亲子</span></a>
+<a href="javascript:void(0)" onClick="closes('444')"><img src="images/zt3.jpg" /><span>浪漫蜜月</span></a>
+<a href="javascript:void(0)" onClick="closes('444')"><img src="images/zt4.jpg" /><span>自驾游</span></a>
+<a href="javascript:void(0)" onClick="closes('444')"><img src="images/zt5.jpg" /><span>毕业旅行</span></a>
+<a href="javascript:void(0)" onClick="closes('444')"><img src="images/zt6.jpg" /><span>老年旅游</span></a>
+<a href="javascript:void(0)" onClick="closes('444')"><img src="images/zt7.jpg" /><span>海岛游</span></a>
+<a href="javascript:void(0)" onClick="closes('444')"><img src="images/zt8.jpg" /><span>主体乐园</span></a>
+<a href="javascript:void(0)" onClick="closes('444')"><img src="images/zt9.jpg" /><span>乡村古镇</span></a>
+<a href="javascript:void(0)" onClick="closes('444')"><img src="images/zt10.jpg" /><span>城市风光</span></a>
+<a href="javascript:void(0)" onClick="closes('444')"><img src="images/zt11.jpg" /><span>人文宗教</span></a>
+<a href="javascript:void(0)" onClick="closes('444')"><img src="images/zt12.jpg" /><span>公司旅游</span></a>
+<a href="javascript:void(0)" onClick="closes('444')"><img src="images/zt13.jpg" /><span>美食</span></a>
+<a href="javascript:void(0)" onClick="closes('444')"><img src="images/zt14.jpg" /><span>购物</span></a>
+<div class="clear"></div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</section>
+<div class="button"><a href="#" onClick="submit()">确认提交</a></div>
+<script>
+function openes(id){
+document.getElementById("tr"+id).style.display="block";
+document.getElementById("selemain").style.display="none";
+}
+function closes(id){
+document.getElementById("tr"+id).style.display="none";
+document.getElementById("selemain").style.display="block";
+}
+</script> 
+<div class="clear"></div>
+</div>
+</div>
+<!--地接目的地-->
+<div class="wrap_bgfff">
+<div class="destination wrapper">
+<div class="headT">
+<span class="title">地接目的地</span><span class="subtitle">DESTINATION</span>
+<ul>
+<li><a href="#">接送</a></li>
+<li><a href="#">导游</a></li>
+<li><a href="#">门票</a></li>
+<li><a href="#">酒店</a></li>
+<li><a href="#">餐饮</a></li>
+<li><a href="#">签证</a></li>
+<li><a href="#">邮轮</a></li>
+<li><a href="#">翻译</a></li>
+<li><a href="#">邀请</a></li>
+<li><a href="#">保险</a></li>
+<li><a href="#">欧铁</a></li>
+</ul>
+<a href="#" class="more">MORE<b>+</b></a>
+</div>
+<div class="destination_L">
+<p class="area"><a href="#">亚洲</a></p>
+<p class="state">
+<a href="#">泰国</a>
+<a href="#">日本</a>
+<a href="#">韩国</a>
+<a href="#">中国台湾</a><br/>
+<a href="#">新加坡</a>
+<a href="#">印尼</a>
+<a href="#">土耳其</a>
+<a href="#">斯里兰卡</a>
+</p>
+<p class="area"><a href="#">欧洲</a></p>
+<p class="state">
+<a href="#">法国</a>
+<a href="#">瑞士</a>
+<a href="#">德国</a>
+<a href="#">英国</a>
+<a href="#">希腊</a>
+<a href="#">俄罗斯</a>
+<a href="#">西班牙</a>
+</p>
+<p class="area"><a href="#">北欧</a></p>
+<p class="state">
+<a href="#">挪威</a>
+<a href="#">芬兰</a>
+<a href="#">瑞典</a>
+<a href="#">丹麦</a>
+</p>
+<p class="area"><a href="#">美洲</a></p>
+<p class="state">
+<a href="#">美国</a>
+<a href="#">加拿大</a>
+</p>
+<p class="area"><a href="#">大洋洲</a></p>
+<p class="state">
+<a href="#">澳大利亚</a>
+<a href="#">新西兰</a>
+</p>
+<p class="area"><a href="#">非洲</a></p>
+<p class="state">
+<a href="#">南非</a>
+<a href="#">埃及</a>
+<a href="#">肯尼亚</a>
+</p>
+</div>
+<div class="destination_R">
+<div class="line1">
+<a href="#" class="pic1">马尔代夫</a>
+<a href="#" class="pic2">西藏</a>
+</div>
+<div class="line2">
+<a href="#" class="pic3">新西兰</a>
+<a href="#" class="pic4">台湾</a>
+<a href="#" class="pic5">新西兰</a>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<!--地接商城-->
+<div class="wrap_bgfa">
+<div class="shoppingMall wrapper">
+<div class="headT">
+<span class="title">地接商城</span><span class="subtitle">MALL</span>
+<ul>
+<li><a href="#">接送</a></li>
+<li><a href="#">导游</a></li>
+<li><a href="#">门票</a></li>
+<li><a href="#">酒店</a></li>
+<li><a href="#">餐饮</a></li>
+<li><a href="#">签证</a></li>
+<li><a href="#">邮轮</a></li>
+<li><a href="#">翻译</a></li>
+<li><a href="#">邀请</a></li>
+<li><a href="#">保险</a></li>
+<li><a href="#">欧铁</a></li>
+</ul>
+<a href="#" class="more">MORE<b>+</b></a>
+</div>
+<ul class="list">
+<li class="list1"><a href="#" class="pic"><img src="images/pic_7.jpg"/></a><p><a href="#">澳门船游维多利亚海港夜景夜...</a><span>¥<b>98</b>起</span></p></li>
+<li class="list2"><a href="#" class="pic"><img src="images/pic_8.jpg"/></a><p><a href="#">澳门船游维多利...</a><span>¥<b>98</b>起</span></p></li>
+<li class="list1"><a href="#" class="pic"><img src="images/pic_9.jpg"/></a><p><a href="#">澳门船游维多利亚海港夜景夜...</a><span>¥<b>98</b>起</span></p></li>
+<li class="list2"><a href="#" class="pic"><img src="images/pic_10.jpg"/></a><p><a href="#">澳门船游维多利...</a><span>¥<b>98</b>起</span></p></li>
+<li class="list2"><a href="#" class="pic"><img src="images/pic_11.jpg"/></a><p><a href="#">澳门船游维多利...</a><span>¥<b>98</b>起</span></p></li>
+<li class="list1"><a href="#" class="pic"><img src="images/pic_12.jpg"/></a><p><a href="#">澳门船游维多利亚海港夜景夜...</a><span>¥<b>98</b>起</span></p></li>
+<li class="list2"><a href="#" class="pic"><img src="images/pic_13.jpg"/></a><p><a href="#">澳门船游维多利...</a><span>¥<b>98</b>起</span></p></li>
+<li class="list1 magR0"><a href="#" class="pic"><img src="images/pic_14.jpg"/></a><p><a href="#">澳门船游维多利亚海港夜景夜...</a><span>¥<b>98</b>起</span></p></li>
+</ul>
+<div class="clear"></div>
+</div>
+</div>
+<!--地接顾问-->
+<div class="wrap_bgfff">
+<div class="consultant wrapper">
+<div class="headT">
+<span class="title">地接顾问</span><span class="subtitle">CONSULTANT</span>
+<a href="#" class="more">MORE<b>+</b></a>
+</div>
+<div class="consultant_L">
+<ul>
+<li class="gwlist1"><img class="img" src="images/pic_15.jpg"/><p class="info"><a href="#" class="portrait"><img src="images/pic_20.jpg"/></a><a href="#" class="name"><b>肖云</b></a><span>地接顾问</span></p><p class="introduce">出境游、国内游、福建省周边游、公司出游、毕业旅游出境游、国内游、福建省周边游、公司出游、出境游、国内游、福建省周边游、公司出游毕业旅游毕业旅游...</p></li>
+<li class="gwlist2"><img class="img" src="images/pic_16.jpg"/><p class="info"><a href="#" class="portrait"><img src="images/pic_21.jpg"/></a><a href="#" class="name"><b>肖云</b></a><span>地接顾问</span></p><p class="introduce">出境游、国内游、福建省周边游、公司出游、毕业旅游...</p></li>
+<li class="gwlist3"><img class="img" src="images/pic_17.jpg"/><p class="info"><a href="#" class="portrait"><img src="images/pic_20.jpg"/></a><a href="#" class="name"><b>肖云</b></a><span>地接顾问</span></p><p class="introduce">出境游、国内游、福建省周边游、公司出游、毕业旅游...</p></li>
+<li><img class="img" src="images/pic_18.jpg"/><p class="info"><a href="#" class="portrait"><img src="images/pic_22.jpg"/></a><a href="#" class="name"><b>肖云</b></a><span>地接顾问</span></p><p class="introduce">出境游、国内游、福建省周边游、公司出游、毕业旅游...</p></li>
+<li class="gwlist5"><img class="img" src="images/pic_19.jpg"/><p class="info"><a href="#" class="portrait"><img src="images/pic_23.jpg"/></a><a href="#" class="name"><b>肖云</b></a><span>地接顾问</span></p><p class="introduce">出境游、国内游、福建省周边游、公司出游、毕业旅游...</p></li>
+</ul>
+</div>
+<div class="consultant_R">
+<div class="title"><span>热门问题</span><a href="#">MORE<b>+</b></a></div>
+<div class="QA">
+<div class="QA_Q"><a href="#" class="pic"><img src="images/pic_24.jpg"/></a><p class="name"><a href="#">地接客户</a><span>问</span></p><p class="ask">旅游好玩吗？我也想去旅游</p></div>
+<div class="QA_A"><a href="#" class="pic"><img src="images/pic_25.jpg"/></a><p class="name"><a href="#">地接顾问</a><span>答</span></p><p class="ask">您好，如您认可我们的方案，我们...</p></div>
+</div>
+<div class="QA">
+<div class="QA_Q"><a href="#" class="pic"><img src="images/pic_24.jpg"/></a><p class="name"><a href="#">地接客户</a><span>问</span></p><p class="ask">旅游好玩吗？我也想去旅游</p></div>
+<div class="QA_A"><a href="#" class="pic"><img src="images/pic_25.jpg"/></a><p class="name"><a href="#">地接顾问</a><span>答</span></p><p class="ask">您好，如您认可我们的方案，我们...</p></div>
+</div>
+<div class="QA">
+<div class="QA_Q"><a href="#" class="pic"><img src="images/pic_24.jpg"/></a><p class="name"><a href="#">地接客户</a><span>问</span></p><p class="ask">旅游好玩吗？我也想去旅游</p></div>
+<div class="QA_A"><a href="#" class="pic"><img src="images/pic_25.jpg"/></a><p class="name"><a href="#">地接顾问</a><span>答</span></p><p class="ask">您好，如您认可我们的方案，我们...</p></div>
+</div>
+<div class="QA">
+<div class="QA_Q"><a href="#" class="pic"><img src="images/pic_24.jpg"/></a><p class="name"><a href="#">地接客户</a><span>问</span></p><p class="ask">旅游好玩吗？我也想去旅游</p></div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<!--地接社-->
+<div class="wrap_bgfa">
+<div class="TravelAgent wrapper">
+<div class="headT">
+<span class="title">地接社</span><span class="subtitle">MALL</span>
+<a href="#" class="more">MORE<b>+</b></a>
+</div>
+<div class="TravelAgent_L">
+<ul>
+<li><a href="#" class="pic"><img src="images/pic_26.jpg"/></a><a href="#" class="Focus">关注</a></li>
+<li><a href="#" class="pic"><img src="images/pic_27.jpg"/></a><a href="#" class="Focus">关注</a></li>
+<li><a href="#" class="pic"><img src="images/pic_28.jpg"/></a><a href="#" class="Focus">关注</a></li>
+<li><a href="#" class="pic"><img src="images/pic_29.jpg"/></a><a href="#" class="Focus">关注</a></li>
+<li><a href="#" class="pic"><img src="images/pic_30.jpg"/></a><a href="#" class="Focus">关注</a></li>
+<li><a href="#" class="pic"><img src="images/pic_31.jpg"/></a><a href="#" class="Focus">关注</a></li>
+<li><a href="#" class="pic"><img src="images/pic_27.jpg"/></a><a href="#" class="Focus">关注</a></li>
+<li><a href="#" class="pic"><img src="images/pic_28.jpg"/></a><a href="#" class="Focus">关注</a></li>
+</ul>
+</div>
+<div class="TravelAgent_R">
+<div class="title"><span>最新目的地点评</span><a href="#">MORE<b>+</b></a></div>
+<ul>
+<li>
+<div class="list_L"><a href="#"><img src="images/pic_24.jpg"></a></div>
+<div class="list_R">
+<p class="line1"><a href="#" class="name">sun小姐的兔斯基</a><span>点评了</span><a href="#">米兰运河</a></p>
+<p class="line2"><i></i><i></i><i></i><i></i><i></i></p>
+<p class="line3">走到这里，米兰的城市徒步正入佳境。在教堂广场可享用一杯纯正意大利...</p>
+</div>
+</li>
+<li>
+<div class="list_L"><a href="#"><img src="images/pic_24.jpg"></a></div>
+<div class="list_R">
+<p class="line1"><a href="#" class="name">sun小姐的兔斯基</a><span>点评了</span><a href="#">米兰运河</a></p>
+<p class="line2"><i></i><i></i><i></i><i></i><i></i></p>
+<p class="line3">走到这里，米兰的城市徒步正入佳境。在教堂广场可享用一杯纯正意大利...</p>
+</div>
+</li>
+<li>
+<div class="list_L"><a href="#"><img src="images/pic_24.jpg"></a></div>
+<div class="list_R">
+<p class="line1"><a href="#" class="name">sun小姐的兔斯基</a><span>点评了</span><a href="#">米兰运河</a></p>
+<p class="line2"><i></i><i></i><i></i><i></i><i></i></p>
+<p class="line3">走到这里，米兰的城市徒步正入佳境。在教堂广场可享用一杯纯正意大利...</p>
+</div>
+</li>
+</ul>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<!--优势-->
+<div class="wrap_bgfff">
+<div class="advantage wrapper">
+<ul>
+<li class="li1"><img src="images/ico_2.png"/><p><b>精选地接</b></p><p>同类产品，保证低价</p></li>
+<li class="li2"><img src="images/ico_3.png"/><p><b>专业顾问</b></p><p>因特殊情况影响出行，保证退订</p></li>
+<li class="li3"><img src="images/ico_4.png"/><p><b>价格透明</b></p><p>旅途中遇意外情况，保证援助</p></li>
+<li class="li4"><img src="images/ico_5.png"/><p><b>贴心服务</b></p><p>快速响应，全年无休</p></li>
+<div class="clear"></div>
+</ul>
+<div class="clear"></div>
+</div>
+<div class="clear"></div>
+</div>
+<!--通用底部-->
+<div class="com_foot_bg">
+<div class="com_foot wrapper">
+<ul>
+<li>正品保障</li>
+<li><a href="#">品牌授权正品</a></li>
+<li><a href="#">品牌客服</a></li>
+<li><a href="#">预约到店体验</a></li>
+<li><a href="#">7天无理由退换</a></li>
+</ul>
+<ul>
+<li>使用帮助</li>
+<li><a href="#">常见问题</a></li>
+<li><a href="#">会员制度</a></li>
+<li><a href="#">集团采购</a></li>
+<li><a href="#">礼品卡</a></li>
+</ul>
+<ul>
+<li>支付方式</li>
+<li><a href="#">到店付款</a></li>
+<li><a href="#">货到付款</a></li>
+<li><a href="#">在线支付</a></li>
+<li><a href="#">余额支付</a></li>
+<li><a href="#">分期付款</a></li>
+</ul>
+<ul>
+<li>配送方式</li>
+<li><a href="#">配送说明</a></li>
+<li><a href="#">到店自提</a></li>
+<li><a href="#">运费说明</a></li>
+<li><a href="#">验货签收</a></li>
+</ul>
+<ul class="width145">
+<li>售后服务</li>
+<li><a href="#">品牌售后</a></li>
+<li><a href="#">售后咨询</a></li>
+<li><a href="#">退换政策</a></li>
+<li><a href="#">发票保障</a></li>
+</ul>
+<div class="public mgR25"><p>地接公众号</p><img src="images/pic_33.jpg"/></div>
+<div class="public"><p>地接微博</p><img src="images/pic_33.jpg"/></div>
+<div class="clear"></div>
+</div>
+</div>
+<!--右侧悬浮层-->
+<div class="fix_box">
+<div class="boxMain">
+<a href="#" class="btn1"><span>意见反馈</span></a>
+<a href="javasrcipt:void(0)" class="btn2"><img src="images/pic_86.jpg"></a>
+<a href="#top" class="btn3"><span>返回顶部</span></a>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrap_bgfff{background-color:#fff;}
+.wrap_bgfa{background-color:#fafafa; padding-bottom:30px;}
+
+/*二级头部*/
+.two_head_bg{width:100%; height:120px; border-top:2px solid #97C730;}
+.two_head{height:100%;}
+.two_head .two_hL{float:left; height:100%; line-height:120px;}
+.two_head .two_hR{float:right; height:100%; padding-top:29px;}
+.two_head .two_hR .ico{width:34px; height:34px; margin:6px 8px 0 0; float:left;}
+.two_head .two_hR .ico img{display:block; width:100%;}
+.two_head .two_hR .tel{float:right;}
+.two_head .two_hR .tel p{font-size:20px; line-height:20px;}
+
+
+
+
+
+
+/*二级导航*/
+.two_nav_bg{width:100%; height:50px; background-color:#8FC320;}
+.two_nav{height:100%;}
+.two_nav li{float:left; height:50px; line-height:50px; margin-right:40px; font-size:16px;}
+.two_nav li a{color:#fff;}
+
+/*当前位置*/
+.current{height:45px; line-height:45px; font-size:14px; background:url(../images/ico_6.png) no-repeat left center; padding-left:30px;}
+.current a{color:#656565;}
+.current a:hover{color:#333;}
+
+/*产品预定*/
+.reservation{padding:20px; padding-bottom:30px;}
+.reservation_T{padding-bottom:20px; border-bottom:1px solid #e2e2e2;}
+.reservation_T .T_Left{width:460px; float:left;}
+.reservation_T .T_Left .DetailsFigure{width:460px; height:383px; margin-bottom:10px;}
+.reservation_T .T_Left .DetailsFigure img{width:100%; height:100%;}
+.reservation_T .T_Left .thumbnail{width:460px; height:90px;}
+.reservation_T .T_Left .thumbnail img{width:107.5px; height:90px; float:left; margin-right:10px; cursor:pointer;}
+.reservation_T .T_Left .thumbnail img:last-child{margin-right:0px;}
+.reservation_T .T_Left .thumbnail .mgNo{margin-right:0px;}
+.reservation_T .T_Right{width:665px; float:right;}
+.reservation_T .T_Right .title{line-height:35px;}
+.reservation_T .T_Right .title a{font-size:20px; color:#333;}
+.reservation_T .T_Right .subtitle{line-height:35px; font-size:16px; color:#999; margin-bottom:15px;}
+.reservation_T .T_Right .price{width:100%; height:140px; background:url(../images/pic_48.png) no-repeat center; background-size:100% 100%; padding:20px 40px;}
+.reservation_T .T_Right .price .line1{line-height:60px; font-size:16px; color:#656565;}
+.reservation_T .T_Right .price .line1 span{font-size:18px;}
+.reservation_T .T_Right .price .line1 b{font-size:40px;}
+.reservation_T .T_Right .price .line1 small{font-size:14px;}
+.reservation_T .T_Right .price .line1 .yellow{color:#FFBF01;}
+.reservation_T .T_Right .price .line2{line-height:25px; font-size:12px; color:#656565;}
+.reservation_T .T_Right .price .line2 small{margin-right:10px; float:left;}
+.reservation_T .T_Right .price .line2 span{display:block; float:left; padding:0 3px; border:1px solid #FF5557; color:#FF5557; height:18px; line-height:16px; margin:3.5px 8px 3.5px 0;}
+.reservation_T .T_Right .CSCB{width:100%; height:41px; border-top:1px dashed #ededed; border-bottom:1px dashed #ededed; margin:15px 0;}
+.reservation_T .T_Right .CSCB div{width:25%; text-align:center; height:16px; line-height:16px; float:left; margin:11.5px 0; border-right:1px solid #E5DFDA; font-size:14px; color:#999;}
+.reservation_T .T_Right .CSCB div:last-child{border-right:none;}
+.reservation_T .T_Right .CSCB .mgNo{border-right:none;}
+.reservation_T .T_Right .CSCB div .green{color:#8FC31F;}
+.reservation_T .T_Right .CHCF .line{width:100%; height:33px; line-height:33px;}
+.reservation_T .T_Right .CHCF .tit{font-size:14px; color:#999 !important; margin-right:20px; float:left;}
+.reservation_T .T_Right .CHCF .line2 li{float:left; font-size:14px; line-height:14px; color:#434343; padding:0 10px; border-right:1px solid #434343; margin:9.5px 0;}
+.reservation_T .T_Right .CHCF .line2 .mgNo{border-right:none;}
+.reservation_T .T_Right .CHCF .line2 li a{color:#8DC321;}
+.reservation_T .T_Right .CHCF .line3{height:45px;}
+.reservation_T .T_Right .CHCF .line3 a{display:block; float:left; width:81px; height:32px; line-height:30px; text-align:center; border:1px solid #9ABD21; border-radius:5px; font-size:14px; color:#9ABD21; margin:6.5px 0;}
+.reservation_T .T_Right .CHCF .line4 span{margin-right:20px; font-size:14px; color:#434343; float:left;}
+.reservation_T .T_Right .CHCF .line4 div{float:left; min-width:20px !important; position:relative; cursor:pointer; background:url(../images/pic_85.jpg) no-repeat left center; padding-left:15px; margin-right:10px;}
+.reservation_T .T_Right .CHCF .line4 div p{display:none;}
+.reservation_T .T_Right .CHCF .line4 div:hover p{display:block; position:absolute; left:0px; top:30px; width:300px; border:1px solid #f8f8f8; background-color:#fffedf; padding:5px 10px; font-size:14px; line-height:18px;}
+
+
+
+
+
+
+
+
+
+
+
+.reservation_B{padding-top:25px;}
+.reservation_B .B_Left{display:block; width:460px; height:333px; float:left;}
+.reservation_B .B_Right{width:665px; float:right;}
+.reservation_B .B_Right .line1{width:100%; height:80px; line-height:80px; font-size:20px; color:#434343;}
+.reservation_B .B_Right .line1 span{font-size:14px; color:#999; margin-left:5px;}
+.reservation_B .B_Right .line2{width:100%; height:56px; line-height:56px; font-size:14px; color:#999;}
+.reservation_B .B_Right .line2 span{margin-right:15px;}
+.reservation_B .B_Right .line2 button{width:180px; height:32px; line-height:30px; border:1px solid #d6d6d6; background-color:#fff; font-size:16px; color:#656565; text-align:left; padding-left:10px; background:url(../images/ico_12.png) no-repeat 97% center; margin-right:20px;}
+.reservation_B .B_Right .line3{width:100%; height:70px; line-height:70px; font-size:14px; color:#999;}
+.reservation_B .B_Right .line3 .tit{margin-right:15px; float:left;}
+.reservation_B .B_Right .line3 .div1{float:left; margin-right:25px;}
+.reservation_B .B_Right .line3 .div1 .pronadd{ float:left; width:74px; height:32px; margin:19px 10px 19px 0;}
+.reservation_B .B_Right .line3 .div1 .pronadd input{width:50px; height:32px; line-height:30px; float:left; text-align:center; border:1px solid #d5d5d5;}
+.reservation_B .B_Right .line3 .div1 .pronadd a{display:block; float:right; width:20px; height:14px; line-height:12px; text-align:center; cursor:pointer; border:1px solid #d5d5d5;}
+.reservation_B .B_Right .line3 .div1 .pronadd .aL{ margin-bottom:4px;}
+.reservation_B .B_Right .line3 .div1 span{float:left;}
+.reservation_B .B_Right .line4{width:100%; height:45px; line-height:45px; font-size:14px; color:#999;}
+.reservation_B .B_Right .line4 .tit{margin-right:15px; float:left;}
+.reservation_B .B_Right .line4 .yellow{font-size:14px; color:#FFBF01;}
+.reservation_B .B_Right .line4 .yellow b{font-size:24px;}
+.reservation_B .B_Right .line5{margin-top:15px;}
+.reservation_B .B_Right .line5 button{width:175px; height:50px; line-height:50px; text-align:center; border:none; border-radius:5px; background-color:#8DC321; color:#fff; font-size:20px; font-family:微软雅黑;}
+
+/*线路相关推荐*/
+.recommend{margin-bottom:30px;}
+.recommend .headT{width:1195px; height:48px; line-height:48px; border-left:5px solid #8EC321; padding-left:13px; background-color:#fcfcfc;}
+.recommend .headT span{font-size:16px; color:#8DC321;}
+.recommend dd{width:50%; height:90px; float:left; padding:25px 50px 25px 40px; line-height:40px;}
+.recommend dd:nth-child(1),.recommend dd:nth-child(3){border-right:1px solid #f0f0f0;}
+.recommend dd:nth-child(1),.recommend dd:nth-child(2){border-bottom:1px solid #f0f0f0;}
+.recommend dd .title{font-size:18px; line-height:18px; margin:12px 0; color:#656565; float:left;}
+.recommend dd .discount{display:block; float:left; width:44px; height:24px; line-height:22px; text-align:center; border:1px solid #FCBB07; color:#FCBB07; border-radius:3px; margin:8px 5px;}
+.recommend dd .price{float:right; font-size:14px; color:#8DC321;}
+.recommend dd .price b{font-size:24px;}
+.recommend dd .look{float:right; display:block; width:95px; height:35px; line-height:35px; text-align:center; border:none; background-color:#FFBF01; color:#fff; font-size:14px; border-radius:5px; margin-left:13px;}
+
+/*选项卡及店铺信誉*/
+/*选项卡*/
+.TAB_main{width:900px; float:left; background-color:#fff;}
+.TAB_option{width:100%; height:52px; border-bottom:1px solid #e2e2e2;}
+.TAB_option dd{float:left; width:137px; text-align:center; height:52px; border-top:5px solid #fff; border-bottom:1px solid #e2e2e2; cursor:pointer;}
+.TAB_option .width200{width:200px;}
+.TAB_option .width200 span{border:none;}
+.TAB_option dd span{display:block; width:100%; height:24px; line-height:24px; border-right:1px solid #e2e2e2; margin:11px 0; font-size:16px; color:#999;}
+.TAB_option .TAB_zt{border:1px solid #e2e2e2; border-top:5px solid #8EC321; border-bottom:1px solid #fff;}
+.TAB_option .TAB_zt span{border:none; color:#8DC321;}
+
+.TAB_content .cont1 dl{width:820px; margin:auto;}
+.TAB_content .cont1 dt{line-height:62px; font-size:24px; color:#333; margin-top:20px; padding-left:65px;}
+.TAB_content .cont1 .dt1{background:url(../images/ico_15.png) no-repeat left center;}
+.TAB_content .cont1 .dt2{background:url(../images/ico_16.png) no-repeat left center;}
+.TAB_content .cont1 .dt3{background:url(../images/ico_17.png) no-repeat left center;}
+.TAB_content .cont1 .dt4{background:url(../images/ico_18.png) no-repeat left center;}
+.TAB_content .cont1 .dt5{background:url(../images/ico_19.png) no-repeat left center;}
+.TAB_content .cont1 .dt6{background:url(../images/ico_20.png) no-repeat left center;}
+.TAB_content .cont1 .dt7{background:url(../images/ico_21.png) no-repeat left center;}
+.TAB_content .cont1 .dt8{background:url(../images/ico_22.png) no-repeat left center;}
+.TAB_content .cont1 .dt9{background:url(../images/ico_23.png) no-repeat left center;}
+.TAB_content .cont1 .dt10{background:url(../images/ico_24.png) no-repeat left center;}
+.TAB_content .cont1 dd{line-height:23.6px; font-size:14px; color:#777; padding-left:65px; border-bottom:1px dashed #e2e2e2; padding-bottom:25px;}
+
+/*店铺信誉*/
+.credit{width:280px; float:right; background-color:#fff;}
+.credit .head{width:100%; height:91px; background-color:#8DC321; color:#fff; padding:15px 0 0 20px;}
+.credit .head p{font-size:24px; line-height:38px;}
+.credit .head span{font-size:12px; line-height:25px;}
+.credit dd{width:100%; padding:10px 20px; font-size:16px; line-height:30px; color:#999;}
+.credit dd p{width:100%; height:30px; line-height:30px;}
+.credit dd p span{display:block; float:left;}
+.credit dt{width:100%; height:33px; line-height:33px; background-color:#fcfcfc; border-left:5px solid #8EC321; padding-left:8px;}
+.credit dt span{font-size:14px; color:#333;}
+.credit dd a{display:block; float:left; padding-right:40px; background:url(../images/ico_26.png) no-repeat right center;}
+.credit dd a:first-child{margin-right:55px;}
+.credit dd a:hover{background:url(../images/ico_27.png) no-repeat right center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

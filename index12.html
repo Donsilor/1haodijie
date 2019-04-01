@@ -1,0 +1,216 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>注册切换页</title>
+<link rel="stylesheet" type="text/css" href="css/common.css"/>
+<link rel="stylesheet" type="text/css" href="css/register.css"/>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/option.js"></script>
+</head>
+<body>
+<div class="BG_wrap">
+<img src="images/register_logo.png" class="register_logo"/>
+<div class="main_wrap">
+<div class="main_option"><span class="opt_span opt_zt">个人/游客</span><span class="opt_span">合作社</span></div>
+<div class="option_cont">
+<div class="opt_ctn ctn_1">
+<table>
+<tr class="tr1">
+<td class="td1"><span class="red">*</span>真实姓名 :</td>
+<td class="td2"><input type="text"/></td>
+<td></td>
+</tr>
+<tr class="tr2">
+<td class="td1"><span class="red">*</span>手机号码 :</td>
+<td class="td2"><input type="text"/></td>
+<td></td>
+</tr>
+<tr class="tr3">
+<td class="td1"><span class="red">*</span>验证码 :</td>
+<td class="td2"><input type="text"/></td>
+<td class="td3"><a href="#" class="verificationCode">获取验证码</a></td>
+</tr>
+<tr class="tr4">
+<td class="td1"><span class="red">*</span>密码 :</td>
+<td class="td2"><input type="text"/></td>
+<td class="td3"><i class="mimaqd"></i><i class="mimaqd"></i><i class="mimaqd BGe1"></i></td>
+</tr>
+<tr class="tr5">
+<td class="td1"><span class="red">*</span>确认密码 :</td>
+<td class="td2"><input type="text"/></td>
+<td></td>
+</tr>
+<tr class="tr6">
+<td></td>
+<td class="td2"><input type="checkbox"/><p class="AtoD">同意<a href="#">《地接1号服务使用协议》</a></p></td>
+<td></td>
+</tr>
+<tr class="tr7">
+<td class="td1 tit"></td>
+<td class="td2"><button>立即注册</button></td>
+<td></td>
+</tr>
+</table>
+<div class="QrCode"><img src="images/pic_37.jpg"/><p>扫码注册</p></div>
+</div>
+<div class="opt_ctn ctn_2" style="display:none">
+<table>
+<tr class="tr1">
+<td class="td1"><span class="red">*</span>公司名称 :</td>
+<td class="td2"><input type="text" placeholder="需和您的营业执照上公司名称一致"/></td>
+</tr>
+<tr class="tr2">
+<td class="td1"><span class="red">*</span>品牌名 :</td>
+<td class="td2"><input type="text" placeholder="同业合作品牌名称，如“环宇假期”"/></td>
+</tr>
+<tr class="tr3">
+<td class="td1"><span class="red">*</span>所在城市 :</td>
+<td class="td2">
+<div class="sel-boxone" id="Tmcselect01">
+<input for="label" type="text" readonly value="请选择省份">
+<ul class="sel-list" style="display:none;">
+<li data="1">请选择省份</li>
+<li data="2">广东省</li>
+<li data="3">广西省</li>
+<li data="4">浙江省</li>
+</ul>
+</div>
+<div class="sel-boxone2" id="Tmcselect02">
+<input for="label" type="text" readonly value="请选择城市或地区">
+<ul class="sel-list2" style="display:none;">
+<li data="5">请选择城市或地区</li>
+<li data="6">北京</li>
+<li data="7">上海</li>
+<li data="8">广州</li>
+<li data="9">深圳</li>
+</ul>
+</div>
+<script src="js/accside.js"></script> 
+<script>
+$('#Tmcselect01').input();
+$('#Tmcselect02').input();
+</script>
+</td>
+</tr>
+<tr class="tr4">
+<td class="td1" valign="top"><span class="red">*</span>公司地址 :</td>
+<td class="td2"><textarea class="text1" placeholder="请输入公司的详细地址"></textarea></td>
+</tr>
+<tr class="tr5">
+<td class="td1"><span class="red">*</span>固定电话 :</td>
+<td class="td2"><input type="text" placeholder="请输入您的固定电话"/></td>
+</tr>
+<tr class="tr6">
+<td class="td1" valign="top"><span class="red">*</span>业务类型 :</td>
+<td class="td2" valign="baseline">
+<p class="BusinessTypes">
+<a>散拼批发</a>
+<a>单团组团</a>
+<a>高端奢华</a>
+<a class="width61">会展</a>
+<a class="width61">留学</a>
+<a>冬夏令营</a>
+<a>酒店预订</a>
+<a>海岛度假</a>
+<a>自由行</a>
+<a class="width61">亲子</a>
+<a class="width61">其他</a>
+<a>票务分销</a>
+</p>
+</td>
+</tr>
+<tr class="tr7">
+<td class="td1"><span class="red">*</span>业务区域 :</td>
+<td class="td2">
+<ul class="area">
+<li>
+<div>亚洲
+<p>
+<a>中国</a><span>|</span>
+<a>韩国</a><span>|</span>
+<a>日本</a><span>|</span>
+<a>越南</a><span>|</span>
+<a>老挝</a><span>|</span>
+<a>柬埔寨</a><span>|</span>
+<a>菲律宾</a><span>|</span>
+<a>泰国</a><span>|</span>
+<a>马来西亚</a><span>|</span>
+<a>新加坡</a>
+</p>
+</div>
+<div>欧洲
+<p>
+<a>英国</a><span>|</span>
+<a>爱尔兰</a><span>|</span>
+<a>荷兰</a><span>|</span>
+<a>丹麦</a><span>|</span>
+<a>瑞典</a><span>|</span>
+<a>芬兰</a><span>|</span>
+<a>西班牙</a><span>|</span>
+<a>意大利</a>
+</p>
+</div>
+<div>美洲
+<p>
+<a>危地马拉</a><span>|</span>
+<a>古巴</a><span>|</span>
+<a>洪都拉斯</a><span>|</span>
+<a>格林纳达</a><span>|</span>
+<a>哥斯达黎加</a><span>|</span>
+<a>多米尼加</a><span>|</span>
+<a>圣基茨和尼维斯</a><span>|</span>
+<a>萨尔瓦多</a><span>|</span>
+<a>加拿大</a><span>|</span>
+<a>圣卢西亚</a><span>|</span>
+<a>阿根廷</a>
+</p>
+</div>
+<div>澳新
+<p>
+<a>新南威尔士州</a><span>|</span>
+<a>昆士兰</a><span>|</span>
+<a>南澳大利亚</a><span>|</span>
+<a>塔斯马尼亚</a><span>|</span>
+<a>维多利亚</a><span>|</span>
+<a>西澳大利亚</a><span>|</span>
+<a>堪培拉</a>
+</p>
+</div>
+<div>非洲
+<p>
+<a>乌干达</a><span>|</span>
+<a>南非</a><span>|</span>
+<a>博茨瓦纳</a><span>|</span>
+<a>卢旺达</a><span>|</span>
+<a>摩洛哥</a><span>|</span>
+<a>毛里求斯</a><span>|</span>
+<a>肯尼亚</a>
+</p>
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr class="tr8">
+<td class="td1" valign="top"><span class="red">*</span>公司介绍 :</td>
+<td class="td2"><textarea class="text2" placeholder="请输入公司的简介"></textarea></td>
+</tr>
+<tr class="tr9">
+<td class="td1"></td>
+<td class="td2"><input type="checkbox"/><p>同意<a href="#">《地接1号服务使用协议》</a></p></td>
+</tr>
+<tr class="tr10">
+<td></td>
+<td class="td2"><button>立即注册</button></td>
+</tr>
+</table>
+</div>
+<div class="clear"></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="clear"></div>
+</div>
+</body>
+</html>

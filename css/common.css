@@ -1,0 +1,78 @@
+charset "utf-8";
+/* 深圳市静江网络科技有限公司 */
+*{margin:0px; padding:0px;}
+body{position:relative; font-family:微软雅黑; font-weight: normal; color:#000; font-weight:normal; background:#fff; margin:0px; padding:0px;}
+input[type=button],input[type=submit],input[type=file],button {cursor:pointer; -webkit-appearance:none;}
+ul,li,dl,dt,dd,table,tr,td,h1,h2,h3,h4,h5,h6,p{list-style-type:none; margin:0px; padding:0px;}
+img{border:none;}
+a{text-decoration:none; color:#999; margin:0px; padding:0px;}
+a:hover{text-decoration:none;}
+.clear{clear:both;}
+*,*:before,*:after {-webkit-box-sizing:border-box; box-sizing:border-box;}
+.wrapper{width:1200px; margin:auto;}
+/*初始化样式结束*/
+
+/*通用顶部*/
+.com_top_bg{width:100%; height:39px; border-bottom:1px solid #f7f7f7; background-color:#fbfbfb;}
+.com_top{height:100%; font-size:12px; color:#999; line-height:38px;}
+.com_top_L{float:left;}
+.com_top_L a{color:#f00;}
+.com_top_R{float:right;}
+.com_top_R span{margin:0 5px;}
+.com_top_R a:hover{color:#333;}
+
+/*通用头部*/
+.com_head_bg{width:100%; height:95px; background-color:#fff; border-bottom:2px solid #98C433;}
+.com_head{height:93px;}
+.com_head_L{float:left;}
+.com_head_L a{display:block; width:156px; height:53px; margin:20px 0;}  
+.com_head_L a img{width:100%; height:100%;}
+.com_head_R{float:right;}
+.com_head_R li{float:left; font-size:16px; color:#666; margin-left:25px; line-height:93px;}
+.com_head_R li a:hover{color:#8DC321;}
+
+/*优势*/
+.advantage{height:138px;}
+.advantage li{height:57px; float:left; padding:40.5px 0; font-size:14px; color:#777;}
+.advantage .li1{width:300px; padding-left:13px;}
+.advantage .li2{width:345px;}
+.advantage .li3{width:340px;}
+.advantage .li4{width:210px;}
+.advantage li img{width:57px; height:57px; float:left; margin-right:15px;}
+.advantage li p{line-height:22px;}
+.advantage li p:nth-child(2){margin-top:5px;}
+.advantage li p b{font-size:16px; color:#333;}
+
+/*通用底部*/
+.com_foot_bg{width:100%; height:465px; background:url(../images/pic_32.png) no-repeat bottom center; background-color:#505050;}
+.com_foot{padding:70px 0 0 15px;}
+.com_foot ul{float:left; width:190px; color:#fff; font-size:12px;}
+.com_foot .width145{width:145px;}
+.com_foot li{line-height:25px;}
+.com_foot li:first-child{font-size:14px; font-weight:bold; line-height:38px;}
+.com_foot li a{color:#fff;}
+.com_foot li a:hover{color:#ddd;}
+.com_foot .public{width:123px; height:150px; background-color:#fff; float:left; text-align:center;}
+.com_foot .public p{margin:12px 0 7px 0;}
+.com_foot .mgR25{margin-right:25px;}
+
+.xin1{display:block; float:left; width:20px; height:16px; background:url(../images/diamond.gif) no-repeat left center; margin:7px 0;}
+.xin2{display:block; float:left; width:41px; height:16px; background:url(../images/diamond.gif) no-repeat left center; margin:7px 0;}
+.xin3{display:block; float:left; width:62px; height:16px; background:url(../images/diamond.gif) no-repeat left center; margin:7px 0;}
+.xin4{display:block; float:left; width:82px; height:16px; background:url(../images/diamond.gif) no-repeat left center; margin:7px 0;}
+.xin5{display:block; float:left; width:102px; height:16px; background:url(../images/diamond.gif) no-repeat left center; margin:7px 0;}
+
+/*右侧悬浮层*/
+.fix_box{width:43px; height:150px; position:fixed; right:22px; top:420px;}
+.fix_box .boxMain{width:100%; height:100%; position:relative;}
+.fix_box .boxMain a{display:block; width:43px; height:43px; border:1px solid #d8d8d8; border-radius:22px; position:absolute; right:0px;}
+.fix_box .boxMain a span,.fix_box .boxMain a img{display:none;}
+.fix_box .boxMain .btn1{top:0px; background:url(../images/ico_78.png) no-repeat center #fff;}
+.fix_box .boxMain .btn2{top:55px; background:url(../images/ico_79.png) no-repeat center #fff;}
+.fix_box .boxMain .btn3{top:110px; background:url(../images/ico_80.png) no-repeat center #fff;}
+.fix_box .boxMain a:hover{width:120px; background:#8BC121; border-color:#8BC121;}
+.fix_box .boxMain .btn1:hover{background:url(../images/ico_81.png) no-repeat right center #8bc121;}
+.fix_box .boxMain .btn2:hover{width:180px; height:150px; background:url(../images/ico_82.png) no-repeat right top #8bc121; z-index:9;}
+.fix_box .boxMain .btn3:hover{background:url(../images/ico_83.png) no-repeat right center #8bc121;}
+.fix_box .boxMain a:hover span{display:block; margin-left:15px; line-height:41px; color:#fff; font-size:14px;}
+.fix_box .boxMain a:hover img{display:block; width:120px; margin:15px; border-radius:10px;}

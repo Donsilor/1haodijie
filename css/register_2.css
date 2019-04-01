@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrap_bgfff{background-color:#fff;}
+.wrap_bgfa{background-color:#fafafa; padding-bottom:30px;}
+
+/*当前位置*/
+.current{height:45px; line-height:45px; font-size:14px; background:url(../images/ico_6.png) no-repeat left center; padding-left:30px;}
+.current a{color:#656565;}
+.current a:hover{color:#333;}
+
+/*页面主体*/
+.page_title{height:67px; line-height:67px; font-size:18px; color:#333; padding-left:20px;}
+.info_title{width:1200px; height:48px; line-height:48px; border-left:5px solid #8EC321; background-color:#fcfcfc; padding-left:15px; font-size:16px; color:#8DC321;}
+
+.tabdiv{padding:25px 0;}
+table tr{height:48px; line-height:48px;}
+table tr .td1{width:174px; text-align:right; padding-right:15px; font-size:14px; color:#656565;}
+table tr .td1 .red{color:#f00;}
+
+/*联系人信息*/
+.info_contact tr .td2 input[type="text"]{width:180px; height:32px; border:1px solid #d6d6d6;}
+.info_contact tr .td3{padding-left:12px; font-size:12px; color:#999;}
+.info_contact tr .td3 img{margin-right:5px;}
+
+/*企业信息*/
+.info_enterprise tr .td2{font-size:12px; color:#999;}
+.info_enterprise tr .td2 input[type="text"]{height:32px; border:1px solid #d6d6d6; margin-right:15px; padding:0 15px;}
+.info_enterprise tr .td2 .text1{width:450px;}
+.info_enterprise tr .td2 .text2{width:230px;}
+.info_enterprise tr .td2 .ico1{margin-right:5px;}
+
+.info_enterprise tr .td2 .sel-boxone{width:150px; height:32px; float:left; border:1px solid #cccccc; font-size:14px; color:#777;line-height:26px;position:relative; background:url(../images/pic_38.jpg) no-repeat right center; margin-right:10px;}
+.info_enterprise tr .td2 .sel-boxone input{width:165px; border:0; height:32px;font-size:14px; color:#aaa;line-height:26px;padding-left:10px;display:block;float:left; background:url(pic_4.png) 94% 10px no-repeat; font-family:微软雅黑;}
+.info_enterprise tr .td2 .sel-list{background:#fff;position:absolute;top:31px;right:-1px; width:227px; border:1px solid #ccc;border-top:none;}
+.info_enterprise tr .td2 .sel-list li{height:35px;line-height:35px;color:#333;padding-left:10px;}
+.info_enterprise tr .td2 .sel-list li:hover{color:#fff;background:#008fe7;}
+
+.info_enterprise tr .td2 .sel-boxone2{width:290px; height:32px; float:left; border:1px solid #cccccc; font-size:14px; color:#777;line-height:26px;position:relative; background:url(../images/pic_38.jpg) no-repeat right center;}
+.info_enterprise tr .td2 .sel-boxone2 input{width:290px; border:0; height:32px;font-size:14px; color:#aaa;line-height:26px;padding-left:10px;display:block;float:left; background:url(pic_4.png) 94% 10px no-repeat; font-family:微软雅黑;}
+.info_enterprise tr .td2 .sel-list2{background:#fff;position:absolute;top:31px;right:-1px; width:290px; border:1px solid #ccc;border-top:none;}
+.info_enterprise tr .td2 .sel-list2 li{height:35px;line-height:35px;color:#333;padding-left:10px;}
+.info_enterprise tr .td2 .sel-list2 li:hover{color:#fff;background:#008fe7;}
+
+.info_enterprise .option input[type="radio"]{width:15px; height:15px; float:left; margin:16.5px 3px 16.5px 0;}
+.info_enterprise .option span{float:left; font-size:14px; color:#656565; margin-right:20px;}
+
+/*合作信息*/
+.info_cooperation tr .td2{font-size:12px; color:#999;}
+.info_cooperation tr .td2 input[type="text"]{width:230px; height:32px; border:1px solid #d6d6d6; margin-right:15px; padding:0 15px;}
+.info_cooperation tr .td2 .ico1{margin-right:5px;}
+.info_cooperation tr .td2 textarea{width:720px; height:192px; padding:15px 20px; font-size:14px; color:#c7c7c7; border:1px solid #d6d6d6;}
+.info_cooperation tr .td2 button{width:165px; height:45px; line-height:45px; text-align:center; font-size:16px; color:#fff; border:none; border-radius:5px; background-color:#FFBF01; margin-bottom:25px;}

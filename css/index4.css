@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrap_bgfff{background-color:#fff;}
+.wrap_bgfa{background-color:#fafafa; padding-bottom:20px;}
+
+/*当前位置*/
+.current{height:45px; line-height:45px; font-size:14px; background:url(../images/ico_6.png) no-repeat left center; padding-left:30px;}
+.current a{color:#656565;}
+.current a:hover{color:#333;}
+
+/*私人旅游高级定制*/
+.SC_L{width:832px; height:auto; float:left;}
+.SC_L .headT{width:100%; height:54px; line-height:54px; background-color:#fcfcfc; border-left:5px solid #8EC321; padding-left:15px; font-size:18px; color:#8DC321;}
+.SC_L tr{height:32px;}
+.SC_L td:first-child{width:139px; text-align:right; padding-right:25px; font-size:14px; color:#656565;}
+.SC_L .tr1 .td2 a,.SC_L .tr6 .td2 a{display:block; float:left; width:98px; height:32px; line-height:30px; text-align:center; margin-right:10px; font-size:16px; color:#656565; border:1px solid #d6d6d6;}
+.SC_L .tr1 .td2 a:hover,.SC_L .tr6 .td2 a:hover{color:#8FC321; border-color:#8FC321;}
+.SC_L .tr3 .td2 select{width:110px; height:32px; border:1px solid #d6d6d6; margin-right:10px; font-size:14px; color:#333; font-family:微软雅黑; padding-left:30px;}
+
+.pronadd{ float:left; width:133px; height:32px;}
+.pronadd input{width:60px; height:32px; line-height:30px; float:left; text-align:center; border:1px solid #d5d5d5; margin:0 5px 0 4px; font-size:16px; color:#656565;}
+.pronadd a{display:block; width:32px; height:32px; line-height:30px; line-height:30px; text-align:center; cursor:pointer; font-size:1em; border:1px solid #d5d5d5;}
+.pronadd .aL{float:left;}
+.pronadd .aR{float:right;}
+
+.SC_L .tr5 .td2 input{width:180px; height:32px; border:1px solid #d6d6d6; background:url(../images/ico_48.png) no-repeat 95% center; padding:0 30px 0 15px; font-size:14px; color:#333; font-family:微软雅黑;}
+.SC_L .tr5 .td2 .TAB_main{width:540px; height:auto; border:1px solid #9EBF26;}
+.SC_L .tr5 .td2 .TAB_option{width:100%; height:43px; border-bottom:1px solid #90BF25;}
+.SC_L .tr5 .td2 .TAB_option span{display:block; float:left; height:42px; line-height:42px; padding:0 14px; cursor:pointer; font-size:16px; color:#8BC123;}
+.SC_L .tr5 .td2 .TAB_option .TAB_zt{background-color:#8BC123; color:#fff;}
+.SC_L .tr5 .td2 .TAB_cont{padding:10px 20px;}
+.SC_L .tr5 .td2 .TAB_cont li{float:left; padding:0 13px; height:15px; line-height:15px; border-right:1px solid #e6e6e6; margin:8.5px 0;}
+.SC_L .tr5 .td2 .TAB_cont li a{font-size:14px; color:#656565;}
+.SC_L .tr7 .td2 .other{width:633px; height:263px; border:1px solid #d6d6d6;}
+.SC_L .tr7 .td2 .other_opt{width:100%; height:53px; border-bottom:1px solid #d6d6d6; padding-left:20px;}
+.SC_L .tr7 .td2 .other_opt a{display:block; float:left; height:32px; line-height:30px; margin:10px 0; margin-right:5px; padding:0 10px; border:1px solid #ddd; background-color:#f4f4f4; font-size:12px; color:#656565;}
+.SC_L .tr7 .td2 .other_opt a:hover{border-color:#97C42B; color:#97C42B; background-color:#fff;}
+.SC_L .tr7 .td2 .other textarea{width:100%; height:208px; border:none; padding:10px 20px; font-size:14px; font-family:微软雅黑;}
+.SC_L .tr8 .td2 a,.SC_L .tr11 .td2 .getyzm{display:block; float:left; height:32px; line-height:30px; border:1px solid #dedede;}
+.SC_L .tr8 .td2 .a1{width:211px; background:url(../images/ico_66.png) no-repeat center #f7f7f7; margin-right:12px;}
+.SC_L .tr8 .td2 .a2,.SC_L .tr11 .td2 .getyzm{width:101px; text-align:center; background-color:#f7f7f7; font-size:12px; color:#656556;}
+.SC_L .tr9 .td2 input,.SC_L .tr10 .td2 input,.SC_L .tr11 .td2 input{width:211px; height:32px; float:left; border:1px solid #d5d5d5; margin-right:12px;}
+.SC_L .tr12 .td2 button{width:165px; height:45px; line-height:43px; text-align:center; border:none; border-radius:5px; background-color:#FFBF01; font-size:16px; font-family:微软雅黑; color:#fff; margin-bottom:15px;}
+
+.SC_R{width:368px; height:1067px; float:right; background:url(../images/ico_67.png) no-repeat 0px 315px; background-color:#8FC320;}
+.SC_R .headT{width:100%; height:132px; line-height:132px; padding-left:45px; background-color:#84B41D; font-size:24px; font-weight:bold; color:#fff;}
+.SC_R table{font-size:14px; color:#fff; padding-top:39px;}
+.SC_R tr{height:44px; line-height:30px; padding:7px 0;}
+.SC_R td:first-child{width:104px; text-align:right; padding-right:15px;}
+.SC_R td:nth-child(2) span{display:block; float:left; height:30px; line-height:28px; padding:0 12px; border:1px solid #fff; margin-right:10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
